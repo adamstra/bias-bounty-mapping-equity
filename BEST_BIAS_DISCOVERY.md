@@ -19,7 +19,24 @@ $$\text{gap} = 1.0 - \min\left(1.0, \frac{\text{Overture Entities}}{\text{Refere
 
 This metric relies on a critical, unstated assumption: **that the presence of a mapped geometry implies functional, safe, and real-world utility**. 
 
-Our multi-regional equity audit across **9,794 U.S. Census tracts** reveals that this assumption creates catastrophic real-world blind spots for climate resilience and emergency response. We document **three major structural bias patterns** operating entirely outside the automated scorecard:
+### The Baseline: What Zindi's Automated API Measures
+When evaluating submissions, Zindi's automated platform engine computes disparity ratios across **nine predefined macro-demographic and environmental indicators** (as surfaced directly on the official leaderboard evaluation breakdown):
+
+| Bias Indicator (Automated API) | Disparity Ratio | Measured Coverage Gap | Limitation of the Automated API |
+|:---|:---:|:---:|:---|
+| **Tribal vs Non-Tribal** | **2.79×** | **+179% larger** | Monolithic binary flag; misses sharp sovereign border cliffs and acute life-saving cooling center deficits. |
+| **Rural vs Urban** | **2.38×** | **+138% larger** | Measures aggregate roadway mileage; blind to road quality, culvert impassability, and single-access choke points. |
+| **Wildfire Hazard** | **1.77×** | **+77% larger** | Fails to detect "ghost services"—incinerated commercial POIs that artificially inflate completeness. |
+| **High Climate Vulnerability** | **1.46×** | **+46% larger** | Static demographic overlay; misses dynamic physical hydrology and flash-flood isolation. |
+| **Winter Drought** | **1.42×** | **+42% larger** | Coarse climatological polygon without seasonal ground-truth validation. |
+| **High Social Vulnerability** | **1.21×** | **+21% larger** | Coarse SVI deciles that smooth out hyper-local vulnerable pockets. |
+| **High Hazard + High Vulnerability** | **1.20×** | **+20% larger** | Intersection index unable to model topological network failure. |
+| **Summer Drought** | **1.01×** | **Similar** | Insensitive to agricultural and livestock water access infrastructure. |
+| **Summer Heat** | **0.59×** | **-41% smaller** | Paradoxical inversion: dense urban heat islands appear "well covered" despite missing life-saving civic shelters. |
+
+**The Crucial Challenge:** The prize criteria explicitly solicit the *"Most impactful coverage gap pattern NOT captured by the automated API, with a narrative contextualizing who is affected and what the real-world consequences are for disaster preparedness or climate resilience."*
+
+Our multi-regional equity audit across **9,794 U.S. Census tracts** uncovers **three structural bias patterns** operating entirely outside the automated scorecard:
 
 1. **Flagship Finding — The Texas Low-Water Crossing Trap (`south-central-tx`):**
    In North America's deadliest flash-flood corridor ("Flash Flood Alley"), Overture maps **93.1% of the 8,454 state-verified low-water crossings** as ordinary dry roads. The automated scorecard awards these tracts a **perfect score ($\text{gap} = 0.000000$)**. Yet, during routine rain events, these roads submerge under fast-moving water. When submerged, **22,469 buildings (housing 26,257 residents) across 216 distinct communities** are left completely stranded with **NO mapped alternative route out**.
