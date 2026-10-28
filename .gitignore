@@ -1,0 +1,19 @@
+# OS & Environment
+.DS_Store
+__pycache__/
+*.py[cod]
+*.swp
+.idea/
+.vscode/
+
+# Bulky raw caches and archives (> 50MB)
+*.zip
+*.tar.gz
+*.geojson
+data_cache/
+competitors/
+repo_kevin/
+
+# Scratch & temporary logs
+*.log
+scratch/
