@@ -10,6 +10,7 @@
 Solution and special prize entry repository for Zindi's **Humane Intelligence Bias Bounty: Mapping Equity Challenge** ($10,000 USD Prize Pool), hosted by Humane Intelligence and Reliabl in partnership with Radiant Earth and the Heising-Simons Foundation.
 
 - **Author:** Adama Traore (`liladams97@gmail.com`)
+- **Official Best Submission ID:** `yVbqfYw1` (Public Leaderboard Score: **`0.000287296`**)
 - **Associated Submissions:**
   - [`submission.csv`](submission.csv) (17 columns, 9,794 scored U.S. Census tracts)
   - [`submission_2col.csv`](submission_2col.csv) (2 columns, `GEOID` + `coverage_gap_score`)

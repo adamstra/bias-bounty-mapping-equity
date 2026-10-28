@@ -3,6 +3,7 @@
 - **Competition:** [Zindi — Humane Intelligence Bias Bounty: Mapping Equity Challenge](https://zindi.world/competitions/bias-bounty-mapping-equity-challenge) ($10,000 USD Prize Pool)
 - **Special Prize Entry:** **Best Documentation ($500 USD)**
 - **Author:** Adama Traore (`liladams97@gmail.com`)
+- **Official Best Submission ID:** `yVbqfYw1` (Public Leaderboard Score: **`0.000287296`**)
 - **Associated Submissions:**
   - `submission.csv` (17 columns, full template, 9,794 rows)
   - `submission_2col.csv` (2 columns, `GEOID` + `coverage_gap_score`, 9,794 rows)

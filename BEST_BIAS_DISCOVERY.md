@@ -2,6 +2,7 @@
 
 - **Competition:** [Zindi — Humane Intelligence Bias Bounty: Mapping Equity Challenge](https://zindi.world/competitions/bias-bounty-mapping-equity-challenge) ($10,000 USD Prize Pool)
 - **Special Prize Entry:** **Best Bias Discovery ($1,000 USD)**
+- **Official Best Submission ID:** `yVbqfYw1` (Public Leaderboard Score: **`0.000287296`**)
 - **Author:** Adama Traore (`liladams97@gmail.com`)
 - **Evaluation Criteria Addressed:**
   - **Impact (30%):** Life-threatening disaster evacuation failure and vehicle drowning risks across 26,000+ residents.
