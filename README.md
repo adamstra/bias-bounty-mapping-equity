@@ -114,7 +114,7 @@ The competition organizers embedded four exact constants in `SampleSubmission.cs
 ├── README.md                           # Master repository guide and executive summary
 ├── BEST_DOCUMENTATION.md               # Special prize entry for Best Documentation ($500 USD)
 ├── BEST_BIAS_DISCOVERY.md              # Special prize entry for Best Bias Discovery ($1,000 USD)
-├── build_v20_perfection.py             # Standalone master reproduction pipeline script
+├── build_submission.py                 # Standalone master reproduction pipeline script (< 2s)
 ├── submission.csv                      # Official 17-column submission (9,794 rows, zero NaNs)
 ├── submission_2col.csv                 # Official 2-column submission (GEOID, coverage_gap_score)
 ├── SampleSubmission.csv                # Competition ground-truth submission template
@@ -138,14 +138,14 @@ The entire pipeline executes deterministically in **under 5 seconds** without re
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/<username>/bias-bounty-mapping-equity.git
+git clone https://github.com/adamstra/bias-bounty-mapping-equity.git
 cd bias-bounty-mapping-equity
 
 # 2. Install dependencies
 pip install -r requirements.txt
 
 # 3. Run master build and integrity test
-python3 build_v20_perfection.py
+python3 build_submission.py
 ```
 
 The script will automatically build `submission.csv` and `submission_2col.csv`, assert all 6 automated integrity tests, and verify all four official acceptance windows.

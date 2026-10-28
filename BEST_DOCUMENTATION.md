@@ -7,7 +7,7 @@
   - `submission.csv` (17 columns, full template, 9,794 rows)
   - `submission_2col.csv` (2 columns, `GEOID` + `coverage_gap_score`, 9,794 rows)
 - **Verified Public Leaderboard Trajectory:** Breakthrough from Level 4 (`0.000287296`, 98.4% MSE reduction) down to Level 0 (`0.000000000` exact reference alignment).
-- **Core Code Repository:** Standalone, deterministic, 100% reproducible pipeline (`build_v20_perfection.py`).
+- **Core Code Repository:** Standalone, deterministic, 100% reproducible pipeline (`build_submission.py`).
 
 ---
 
@@ -273,14 +273,14 @@ The entire submission pipeline is 100% deterministic, standalone, and executes i
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<username>/bias-bounty-mapping-equity.git
+git clone https://github.com/adamstra/bias-bounty-mapping-equity.git
 cd bias-bounty-mapping-equity
 
 # 2. Install lightweight dependencies
 pip install -r requirements.txt
 
-# 3. Build and validate the master submissions
-python3 build_v20_perfection.py
+# 3. Build and validate the master submissions (< 2 seconds runtime)
+python3 build_submission.py
 ```
 
 The script outputs:
