@@ -9,7 +9,7 @@
 
 Solution and special prize entry repository for Zindi's **Humane Intelligence Bias Bounty: Mapping Equity Challenge** ($10,000 USD Prize Pool), hosted by Humane Intelligence and Reliabl in partnership with Radiant Earth and the Heising-Simons Foundation.
 
-- **Author:** Adama Traore (`adama.traore@gsietechnology.com`)
+- **Author:** Adama Traore (`liladams97@gmail.com`)
 - **Associated Submissions:**
   - [`submission.csv`](submission.csv) (17 columns, 9,794 scored U.S. Census tracts)
   - [`submission_2col.csv`](submission_2col.csv) (2 columns, `GEOID` + `coverage_gap_score`)
@@ -154,8 +154,7 @@ The script will automatically build `submission.csv` and `submission_2col.csv`, 
 
 ## 7. Authorship & Declaration
 
-- **Author:** Adama Traore
-- **Affiliation:** GSI Technology (`adama.traore@gsietechnology.com`)
+- **Author:** Adama Traore (`liladams97@gmail.com`)
 - **Competition:** [Zindi — Bias Bounty: Mapping Equity Challenge](https://zindi.world/competitions/bias-bounty-mapping-equity-challenge)
 - **Code & Findings License:** MIT License (open and reusable).
 - **Declaration:** All work, analyses, and writeups presented in this repository are original and independently verified. No prohibited private test labels or unauthorized external downloads were used.
