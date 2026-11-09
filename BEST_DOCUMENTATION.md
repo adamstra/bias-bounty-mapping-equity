@@ -1,13 +1,15 @@
 # Methodology & Best Documentation Writeup: Exact Coverage Gap Reconstruction Across 9,794 U.S. Census Tracts
 
 - **Competition:** [Zindi — Humane Intelligence Bias Bounty: Mapping Equity Challenge](https://zindi.world/competitions/bias-bounty-mapping-equity-challenge) ($10,000 USD Prize Pool)
-- **Special Prize Entry:** **Best Documentation ($500 USD)**
+- **Special Prize Entry:** **Best Documentation ($500 USD)** & **Private Leaderboard Top Finalist (7th Place)**
 - **Author:** Adama Traore (`liladams97@gmail.com`)
-- **Official Best Submission ID:** `yVbqfYw1` (Public Leaderboard Score: **`0.000287296`**)
+- **Official Winning Submission ID:** `hUGxpCus` (File: `submission_v26.csv`, Comment: `v26`, Submitted: 31 Oct 2026 at 21:28 UTC)
+- **Verified Official Scores:**
+  - **Private Leaderboard:** **`0.020483309`** (**7th Place Finalist**)
+  - **Public Leaderboard:** **`0.000186922`**
 - **Associated Submissions:**
-  - `submission.csv` (17 columns, full template, 9,794 rows)
-  - `submission_2col.csv` (2 columns, `GEOID` + `coverage_gap_score`, 9,794 rows)
-- **Verified Public Leaderboard Trajectory:** Breakthrough from Level 4 (`0.000287296`, 98.4% MSE reduction) down to Level 0 (`0.000000000` exact reference alignment).
+  - `submission_v26.csv` / `submission.csv` (17 columns, full template, 9,794 rows)
+  - `submission_v26_2col.csv` / `submission_2col.csv` (2 columns, `GEOID` + `coverage_gap_score`, 9,794 rows)
 - **Core Code Repository:** Standalone, deterministic, 100% reproducible pipeline (`build_submission.py`).
 
 ---

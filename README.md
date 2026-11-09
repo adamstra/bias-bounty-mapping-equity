@@ -3,18 +3,21 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![DuckDB Spatial](https://img.shields.io/badge/DuckDB-Spatial_1.0+-yellow.svg)](https://duckdb.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Leaderboard RMSE](https://img.shields.io/badge/LB_RMSE-0.000287296-purple.svg)](https://zindi.world/competitions/bias-bounty-mapping-equity-challenge)
+[![Private Leaderboard Rank](https://img.shields.io/badge/Private_LB-7th_Place-brightgreen.svg)](https://zindi.world/competitions/bias-bounty-mapping-equity-challenge)
+[![Leaderboard RMSE](https://img.shields.io/badge/Public_LB_RMSE-0.000186922-purple.svg)](https://zindi.world/competitions/bias-bounty-mapping-equity-challenge)
 [![Target Prizes](https://img.shields.io/badge/Target_Prizes-Bias_Discovery_($1K)_|_Documentation_($500)-red.svg)](#special-prizes-targeted)
 [![Acceptance Windows](https://img.shields.io/badge/Windows-4_of_4_PASS-brightgreen.svg)](#4-validation-against-official-acceptance-windows)
 
 Solution and special prize entry repository for Zindi's **Humane Intelligence Bias Bounty: Mapping Equity Challenge** ($10,000 USD Prize Pool), hosted by Humane Intelligence and Reliabl in partnership with Radiant Earth and the Heising-Simons Foundation.
 
 - **Author:** Adama Traore (`liladams97@gmail.com`)
-- **Official Best Submission ID:** `yVbqfYw1` (Public Leaderboard Score: **`0.000287296`**)
+- **Official Winning Submission ID:** `hUGxpCus` (File: `submission_v26.csv`, Comment: `v26`, Submitted: 31 Oct 2026 at 21:28 UTC)
+- **Verified Official Scores:**
+  - **Private Leaderboard:** **`0.020483309`** (**7th Place Finalist**)
+  - **Public Leaderboard:** **`0.000186922`**
 - **Associated Submissions:**
-  - [`submission.csv`](submission.csv) (17 columns, 9,794 scored U.S. Census tracts)
-  - [`submission_2col.csv`](submission_2col.csv) (2 columns, `GEOID` + `coverage_gap_score`)
-- **Official Public Leaderboard Score:** Level 4 Breakthrough (**`0.000287296`**, an MSE reduction of **98.4%**) with Level 0 reference alignment (`0.000000000`).
+  - [`submission.csv`](submission.csv) / [`submission_v26.csv`](submission_v26.csv) (17 columns, 9,794 scored U.S. Census tracts)
+  - [`submission_2col.csv`](submission_2col.csv) / [`submission_v26_2col.csv`](submission_v26_2col.csv) (2 columns, `GEOID` + `coverage_gap_score`)
 
 ---
 
